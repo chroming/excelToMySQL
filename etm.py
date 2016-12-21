@@ -28,7 +28,7 @@ def export_to_sql(filename):
             #print xlssheet.cell(r, c).value
     db.close()
 
-filelist = [u'2012分省分专业分数线.xls', u'2013分省分专业分数线.xls', u'2014分省分专业分数线.xls', u'2015分省分专业分数线.xls']
+filelist = []
 
 for filename in filelist:
     export_to_sql(filename)
